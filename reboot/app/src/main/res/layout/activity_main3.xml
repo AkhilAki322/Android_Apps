@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/kkk"
+        android:layout_below="@+id/jjj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="using gps" />
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:layout_below="@+id/kkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "/>
+
+    <TextView
+        android:id="@+id/lonTextView"
+        android:layout_below="@id/latTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "/>
+
+    <TextView
+        android:id="@+id/kkk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retrevied from database"/>
+    <TextView
+        android:id="@+id/latTextView1"
+        android:layout_below="@+id/kkk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "/>
+
+    <TextView
+        android:id="@+id/lonTextView1"
+        android:layout_below="@id/latTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "/>
+    <TextView
+        android:id="@+id/jjj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lonTextView1"
+        android:text="Comparing location of gps with effected areas from database and warn them"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>

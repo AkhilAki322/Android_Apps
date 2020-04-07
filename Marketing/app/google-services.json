@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "3948344665",
+    "firebase_url": "https://eshop-6f78f.firebaseio.com",
+    "project_id": "eshop-6f78f",
+    "storage_bucket": "eshop-6f78f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3948344665:android:c8886a2c28139f8c",
+        "android_client_info": {
+          "package_name": "com.inducesmile.marketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3948344665-7r3c4pl7cd5kje82ejlr00fvf82hbo15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5peg_K5-UcAmc6h612j6UpzOeWlQMxto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
